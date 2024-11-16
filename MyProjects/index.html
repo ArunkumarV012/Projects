@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="d-flex flex-row justify-content-center">
+            <img class="html-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" />
+        </div>
+        <div class="head-paragraph">
+            <h1 class="head">My Projects</h1>
+            <p class="paragraph">These are a few of my static website projects that I have<br>
+                developed using HTML,CSS and Bootstrap.</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center mb-3">
+            <img onclick="display('sectionadvanced')" class="image mr-4" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" />
+            <img onclick="display('sectionfish')" class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img onclick="display('sectionfoods')" class="image mr-4" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" />
+            <img onclick="display('sectionnews')" class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" />
+        </div>
+    </div>
+
+    <div id="sectionadvanced">
+        <div class="bg-containerad d-flex flex-column justify-content-end">
+            <div class="card-container">
+                <h1 class="card-heading">Advanced Technologies</h1>
+                <p class="card-paragraph">Machinary and equipment developed from the application of scientific knowledge</p>
+                <div class="btn-center">
+                    <button class="btn2">Learn more</button>
+                    <button class="btn1" onclick="display('sectionhome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfoods">
+        <div class="bg-cont d-flex flex-column justify-content-end">
+            <div class="bg-color border">
+                <h1 class="font">Happy Meals</h1>
+                <p class="pfont">Discover the best foods over the 1,000<br>restaurents</p>
+                <button class="button padd">Book Now</button>
+                <button class="button padd" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionnews">
+        <div class="bg-container d-flex flex-column justify-content-start">
+            <div class="card-container">
+                <p class="card-paragraph1">NEWS OF THE DAY</p>
+                <h1 class="card-heading">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="card-paragraph2">iB Cricket and Viu together,have announced the
+                    World's first virtual reality cricket league featuring
+                    12 international cricketers,who will be competing against each other for
+                    the iB Cricket super Over League title in Mumbai.
+                    Iconic cricketers like Virender Sehwag,Suresh Raina,Brendon McCullum will be competing in the league</p>
+                <button class="button">Read more</button>
+                <button class="button" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectionfish">
+        <div class="bg-container">
+            <div>
+                <div>
+                    <div id="Fishmovies" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#Fishmovies" data-slide-to="0" class="active"></li>
+                            <li data-target="#Fishmovies" data-slide-to="1"></li>
+                            <li data-target="#Fishmovies" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c1-img.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c2-img.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c3-img.png" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-between">
+                <h1 class="heading">Finding Nemo</h1>
+                <button class="btn">Watch Now</button>
+            </div>
+
+            <div>
+                <p class="paragraph">A clown fish,is overly caution with his son,Nemo
+                    who has a foreshortened fin.When Nemo swims too close to the surface
+                    to prove himself,he is caught by a diver,and horrified Marlin
+                    must set out of the find him.A blue reef fish
+                    named dory joins Marlin and complicates the encounters with sharks,jellyfish,
+                    and a host of ocean dangers.Meanwhile,Nemo plots his escape from a dentist's fish tank</p>
+            </div>
+
+            <div class="bottom-heading">
+                <h2 class="heading2">Similar Movies</h2>
+                <div class="d-flex flex-row justify-content-between">
+                    <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/finding-dory-img.png" />
+                    <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/bugslife-img.png" />
+                    <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ratatouille-movie-img.png" />
+                </div>
+                <div class="bt-cent">
+                    <button onclick="display('sectionhome')" class="btn btn-primary">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

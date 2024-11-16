@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.html-image {
+    background-size: cover;
+    height: 40vh;
+}
+
+.head {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 13px;
+    color: #183b56;
+}
+
+.head-paragraph {
+    text-align: center;
+}
+
+.image {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+.bg-containerad {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 180px;
+}
+
+
+.card-heading {
+    color: #5752ab;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card-paragraph {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.btn1 {
+    background-color: #5752ab;
+    border-color: #d7dfe9;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-width: 0px;
+    margin-left: 5px;
+}
+
+.btn2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-color: 0px;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-width: 1px;
+    margin-right: 5px;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.bg-cont {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-color {
+    background-color: #f6c56e;
+    height: 200px;
+    padding: 20px;
+    font-weight: bolder;
+    color: #323f4b;
+}
+
+.border {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.button {
+    background-color: #ffffff;
+    border-width: 0px;
+    height: 33px;
+    width: 120px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.padd {
+    padding: 3px;
+}
+
+.font {
+    font-family: "Bree Serif";
+}
+
+.pfont {
+    font-style: "Roboto";
+}
+
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 13px;
+}
+
+.card-paragraph1 {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.card-heading {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.card-paragraph2 {
+    color: #7b8794;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.button {
+    background-color: #323f4b;
+    border-radius: 8px;
+    color: white;
+    border-width: 0px;
+    height: 32px;
+    width: 100px;
+}
+
+
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+    height: 110vh;
+    background-size: cover;
+    padding: 18px;
+    font-family: "Roboto";
+
+}
+
+.heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: white;
+    font-size: 12px;
+    color: #ff8348;
+    border-radius: 8px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 12px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 24px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+.bottom-heading {
+    margin-top: 1px;
+}
+
+.bt-cent {
+    text-align: center;
+}
